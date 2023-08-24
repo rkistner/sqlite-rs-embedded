@@ -56,7 +56,7 @@ pub enum ActionCode {
     RECURSIVE = 33,
 }
 
-#[derive(FromPrimitive, PartialEq, Debug)]
+#[derive(FromPrimitive, PartialEq, Debug, Copy, Clone)]
 pub enum ResultCode {
     OK = 0,
     ERROR = 1,
